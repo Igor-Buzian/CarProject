@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: 39c8b362c3ae2b44c8a3164f70347f98
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 4889840042333602593
+    second: S_Fly_Dodge_Back
   externalObjects: {}
   materials:
     materialImportMode: 0
@@ -17,7 +20,11 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
-    rigImportWarnings: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'R_L Foot'
+      : position error = 27.611269 mm\n\t'R_L Toe0' : position error = 31.769402
+      mm\n\t'R_R Foot' : position error = 27.611383 mm\n\t'R_R Toe0' : position error
+      = 31.799992 mm\n"
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -659,8 +666,7 @@ ModelImporter:
     - name: R_L Finger22
       parentName: R_L Finger21
       position: {x: -0.037881315, y: 0, z: 0.000000009536743}
-      rotation: {x: -0.0000000036028596, y: -0.0000000016389401, z: -0.062994495,
-        w: 0.9980139}
+      rotation: {x: -0.0000000036028596, y: -0.0000000016389401, z: -0.062994495, w: 0.9980139}
       scale: {x: 1, y: 1, z: 1}
     - name: R_L Finger3
       parentName: R_L Hand
@@ -844,8 +850,7 @@ ModelImporter:
     hasTranslationDoF: 1
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d9a8fb1864c033e4b990da223ac23ead,
-    type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: d9a8fb1864c033e4b990da223ac23ead, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1

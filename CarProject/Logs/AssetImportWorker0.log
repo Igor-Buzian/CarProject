@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2023.2/staging' branch; Version is '2023.2.20f1 (0e25a174756c) revision 927137'; Using compiler version '193431935'; Build Type 'Release'
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 40845 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-I:\Unity\2023.2.20f1\Editor\Unity.exe
+I:\Unity\2021.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,13 +15,7 @@ I:/GitHub/CarProject/CarProject/CarProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63344
--job-worker-count
-15
--background-job-worker-count
-8
--asset-garbage-collectors
-1
+62036
 Successfully changed project path to: I:/GitHub/CarProject/CarProject/CarProject
 I:/GitHub/CarProject/CarProject/CarProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -45,8 +39,6 @@ I:/GitHub/CarProject/CarProject/CarProject
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-allocator-temp-initial-block-size-main=262144"
-    "memorysetup-allocator-temp-initial-block-size-worker=262144"
     "memorysetup-temp-allocator-size-background-worker=32768"
     "memorysetup-temp-allocator-size-job-worker=262144"
     "memorysetup-temp-allocator-size-preload-manager=33554432"
@@ -54,21 +46,15 @@ I:/GitHub/CarProject/CarProject/CarProject
     "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42516] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2671374255 [EditorId] 2671374255 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F1VGMST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [42516] Host "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2671374255 [EditorId] 2671374255 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F1VGMST) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 15
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Setting multithreaded rendering option only supported for iOS, tvOS and Android platforms, Bratwurst provided
+Multithreaded rendering setting removed for platform Bratwurst
+Refreshing native plugins compatible for Editor in 27.67 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2023.2.20f1 (0e25a174756c)
-[Subsystems] Discovering subsystems at path I:/Unity/2023.2.20f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path I:/Unity/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path I:/GitHub/CarProject/CarProject/CarProject/Assets
-GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
@@ -76,211 +62,338 @@ Direct3D:
     VRAM:     12243 MB
     Driver:   31.0.14037.17019
 Initialize mono
-Mono path[0] = 'I:/Unity/2023.2.20f1/Editor/Data/Managed'
-Mono path[1] = 'I:/Unity/2023.2.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'I:/Unity/2023.2.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Mono path[0] = 'I:/Unity/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'I:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'I:/Unity/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: I:/Unity/2023.2.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001931 seconds.
-- Loaded All Assemblies, in  0.333 seconds
+Register platform support module: I:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: I:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: I:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: I:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: I:/Unity/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003237 seconds.
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.262 seconds
-Domain Reload Profiling: 595ms
-	BeginReloadAssembly (116ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (0ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (115ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (131ms)
-			TypeCache.Refresh (129ms)
-				TypeCache.ScanAssembly (117ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (262ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (222ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (5ms)
-			ProcessInitializeOnLoadAttributes (160ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (0ms)
+- Completed reload, in  0.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (354ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (207ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (384ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (97ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (175ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (29ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Import Worker Mode flag is 0x00
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.411 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.351 seconds
-Domain Reload Profiling: 763ms
-	BeginReloadAssembly (344ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (8ms)
-		LoadAssemblies (95ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (6ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (352ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (166ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Setting multithreaded rendering option only supported for iOS, tvOS and Android platforms, Bratwurst provided
+Multithreaded rendering setting removed for platform Bratwurst
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (52.5 KB). Loaded Objects now: 589.
-Memory consumption went from 77.1 MB to 77.0 MB.
-Total: 4.519300 ms (FindLiveObjects: 0.054200 ms CreateObjectMapping: 0.002700 ms MarkObjects: 4.401800 ms  DeleteObjects: 0.060100 ms)
+Unloading 1314 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (129.7 KB). Loaded Objects now: 1794.
+Memory consumption went from 73.8 MB to 73.7 MB.
+Total: 2.749700 ms (FindLiveObjects: 0.195300 ms CreateObjectMapping: 0.046700 ms MarkObjects: 2.421600 ms  DeleteObjects: 0.085300 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 676245.037047 seconds.
-  path: Assets/DenysAlmaral
-  artifactKey: Guid(163a5ec45a74d34498bf478087d798e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DenysAlmaral using Guid(163a5ec45a74d34498bf478087d798e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '933c8faf3400d175dae458889315441f') in 0.0032844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 680254.106858 seconds.
+  path: Assets/DenysAlmaral/CityPeopleLite/Textures/people_pal.png
+  artifactKey: Guid(9ffdc8b7919d763478da45016239eace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DenysAlmaral/CityPeopleLite/Textures/people_pal.png using Guid(9ffdc8b7919d763478da45016239eace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280923169cbfd82f0a08f95dfa212314') in 0.107361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.949275 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets
-  artifactKey: Guid(0c337a6eb8c52f34bae28f15a9d2b407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets using Guid(0c337a6eb8c52f34bae28f15a9d2b407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd60a89d91875d85a3ad05775c51500f') in 0.0004106 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 19.537301 seconds.
+  path: Assets/Malbers Animations
+  artifactKey: Guid(b5ac3353491d85244895407a9735cce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations using Guid(b5ac3353491d85244895407a9735cce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7a49734cc4369ab047d8634d66059c') in 0.001214 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.638969 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Prefab
-  artifactKey: Guid(01ddcc7def6e986459dd0d27059031fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Prefab using Guid(01ddcc7def6e986459dd0d27059031fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f147afdd130d67c3ca616290e1032eb') in 0.000416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 1.830572 seconds.
+  path: Assets/Malbers Animations/Common
+  artifactKey: Guid(02593f91121e4d64bb44e9f91bbcd657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common using Guid(02593f91121e4d64bb44e9f91bbcd657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39320962ab1c970fd6b396e93423e6f') in 0.001162 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.060665 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Demo
-  artifactKey: Guid(57ac69cc31687cc4d80c5fe20dd30058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Demo using Guid(57ac69cc31687cc4d80c5fe20dd30058) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07e8045a4461e72c62d1910221006f57') in 0.0004166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 0.816458 seconds.
+  path: Assets/Malbers Animations/Common/Animator Masks
+  artifactKey: Guid(f669f1dcf19d03c46bd9615be5eeb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Animator Masks using Guid(f669f1dcf19d03c46bd9615be5eeb79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485320ba730372b41dcaaa81dbe8fd04') in 0.001169 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.503262 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Demo/SimplePoly City - Low Poly Assets_Demo Scene.unity
-  artifactKey: Guid(7e6d3f4e5d896154ab4438845532ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Demo/SimplePoly City - Low Poly Assets_Demo Scene.unity using Guid(7e6d3f4e5d896154ab4438845532ac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0465b3fcca5eaca531a8fbfbabc16bc1') in 0.000436 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 0.070105 seconds.
+  path: Assets/Malbers Animations/Common/Animator Masks/Mask Arms.mask
+  artifactKey: Guid(9a38510b433172844b8fd4604a72e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Animator Masks/Mask Arms.mask using Guid(9a38510b433172844b8fd4604a72e247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5502a1f1280385b86f4321de1521301b') in 0.006071 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.031958 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models
-  artifactKey: Guid(fac5102d6ee34954fb147ea5cb33d8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models using Guid(fac5102d6ee34954fb147ea5cb33d8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3299af7e4bcf316bdd384927ee032a33') in 0.0004389 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 0.297996 seconds.
+  path: Assets/Malbers Animations/Common/Animator Masks/Mask UpperBody.mask
+  artifactKey: Guid(59baf4d0986202a419017f4bc0b599ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Animator Masks/Mask UpperBody.mask using Guid(59baf4d0986202a419017f4bc0b599ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b441003e96eac639022df4ce27809491') in 0.001929 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.766000 seconds.
-  path: Assets/ARCADE - FREE Racing Car
-  artifactKey: Guid(32f8980c12e35d747aaa5d144382183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car using Guid(32f8980c12e35d747aaa5d144382183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e8505bc24c257b9532e700a03cf31b0') in 0.0004476 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 6.050900 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Variables/Flash Green.asset
+  artifactKey: Guid(9f91ff0d410585649bc851a8d007ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Variables/Flash Green.asset using Guid(9f91ff0d410585649bc851a8d007ba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a447a905a913fa250fdbe70a8d9d25') in 0.004032 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.617372 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)
-  artifactKey: Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders) using Guid(9d896aab1f5aa8946ae832f1329a6dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '765c6b31d8170e9842fccf2fabe5900c') in 0.0004131 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
+  Time since last request: 0.298445 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Variables/Global Air Control.asset
+  artifactKey: Guid(f39bbadf72c684c4d804bfe47b409b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Variables/Global Air Control.asset using Guid(f39bbadf72c684c4d804bfe47b409b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe03882b352ea1d5185afa5a76e4ec8') in 0.001502 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.066259 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab
-  artifactKey: Guid(133308cdb8794744caaef026bde9e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab using Guid(133308cdb8794744caaef026bde9e1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c52babf143748b01875f032393e6893') in 0.4138178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
-
+  Time since last request: 0.000012 seconds.
+  path: Assets/Malbers Animations/Common/Assets/Variables/Teleport Blink.asset
+  artifactKey: Guid(1a7b1845a7648f44395c35c06d8db1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Common/Assets/Variables/Teleport Blink.asset using Guid(1a7b1845a7648f44395c35c06d8db1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c365361a6831008749a7de2dbb96307f') in 0.001421 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Red Variant.prefab
-  artifactKey: Guid(8a8f57edf3523624eb9f886833e8e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Red Variant.prefab using Guid(8a8f57edf3523624eb9f886833e8e97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bda3da84c012d2ddd125c1a1227aac2f') in 0.0123201 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000291 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Setting up layers.  Layer [20] is now called [Animal]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateLayer (string,int) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:121)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:24)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-========================================================================
-Received Import Request.
-  Time since last request: 23.140362 seconds.
-  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Female_K.prefab
-  artifactKey: Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Female_K.prefab using Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b47f4f946d1c5cf36b645057459ecb8') in 0.13119 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 93
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 121)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_K.prefab
-  artifactKey: Guid(2435736d6adca23458edd7c80c901e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/casual_Male_K.prefab using Guid(2435736d6adca23458edd7c80c901e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '659ae955519549ad6a0e057d7edbb477') in 0.0521946 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+Setting up layers.  Layer [23] is now called [Enemy]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateLayer (string,int) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:121)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:25)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/DenysAlmaral/CityPeopleLite/Prefabs/Doctor_Male_B.prefab
-  artifactKey: Guid(314b13a2c4f89c74299eabc2a4c725c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DenysAlmaral/CityPeopleLite/Prefabs/Doctor_Male_B.prefab using Guid(314b13a2c4f89c74299eabc2a4c725c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e343e6e7563b97b925fb801811017fc5') in 0.0533747 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 95
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 121)
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Setting up layers.  Layer [15] is now called [BodyPart]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateLayer (string,int) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:121)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:26)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 121)
+
+Setting up layers.  Layer [30] is now called [Item]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateLayer (string,int) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:121)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:27)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 121)
+
+Tag: <B>Fly</B> Added
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateTag (string) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:147)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:28)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 147)
+
+Tag: <B>Climb</B> Added
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateTag (string) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:147)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:29)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 147)
+
+Tag: <B>WallRun</B> Added
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateTag (string) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:147)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 147)
+
+Tag: <B>Stair</B> Added
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:CreateTag (string) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:147)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:31)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 147)
+
+Added Input [UpDown]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+MalbersAnimations.MalbersSettings:AddInputAxis (UnityEditor.SerializedProperty,string,string,string,string,string,single,single,single,bool,bool,MalbersAnimations.AxisType,MalbersAnimations.AxisNumber) (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:85)
+MalbersAnimations.MalbersSettings:CreateInputAxe () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:57)
+MalbersAnimations.MalbersSettings:.cctor () (at Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs:32)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Assets/Malbers Animations/Common/Scripts/Editor/MalbersSettings.cs Line: 85)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (608ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (188ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1618 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (125.9 KB). Loaded Objects now: 2130.
+Memory consumption went from 83.7 MB to 83.6 MB.
+Total: 2.587800 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.052500 ms MarkObjects: 2.221500 ms  DeleteObjects: 0.068100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

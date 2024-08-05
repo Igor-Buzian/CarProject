@@ -82,3 +82,11 @@ The following packages were updated:
   com.unity.timeline from version 1.6.5 to 1.8.6
 The following packages were removed:
   com.unity.textmeshpro@3.0.6
+
+=== Mon Aug  5 16:31:46 2024
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.textmeshpro@3.0.6
