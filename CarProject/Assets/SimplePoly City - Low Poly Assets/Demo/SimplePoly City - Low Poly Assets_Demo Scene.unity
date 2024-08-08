@@ -23779,7 +23779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1417607901
 PrefabInstance:
@@ -28436,7 +28436,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1704015175
 MonoBehaviour:
@@ -36794,7 +36794,7 @@ Transform:
   - {fileID: 1082646743480568471}
   - {fileID: 1046044035234788401}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &2259058915678261312
 Transform:
@@ -37746,12 +37746,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowOnPlay: 0
   PivotPosDir: 0
-  SelectedMode: 0
+  SelectedMode: -1
   SelectedState: 0
   SelectedStance: 0
   ShowStateInInspector: 0
-  Editor_Tabs1: 0
-  Editor_Tabs2: 4
+  Editor_Tabs1: 4
+  Editor_Tabs2: 0
   Mode_Tabs1: 0
   Ability_Tabs: 0
   Editor_EventTabs: 0
@@ -37764,8 +37764,12 @@ MonoBehaviour:
   Runtime_Tabs2: 0
   t: {fileID: 1082646743480568471}
   InGroundChanger: 0
-  states_C: []
-  states: []
+  states_C:
+  - active: 1
+    state: {fileID: 11400000, guid: 1414a8152f0c7564886e533a60348d8c, type: 2}
+    priority: 1
+  states:
+  - {fileID: 11400000, guid: 1414a8152f0c7564886e533a60348d8c, type: 2}
   Stances:
   - ID: {fileID: 11400000, guid: 87ae38bfe93fc3f449ecd25863e2a6fe, type: 2}
     enabled:
@@ -37939,7 +37943,7 @@ MonoBehaviour:
   Aimer: {fileID: 0}
   pivots:
   - name: Hip
-    position: {x: 0, y: 0.7, z: -0.7}
+    position: {x: 0, y: -0.008, z: 0.90453565}
     dir: {x: 0, y: -1, z: 0}
     multiplier: 1
     interval: 1
@@ -37947,7 +37951,7 @@ MonoBehaviour:
     EditorDisplay: 0
     PivotColor: {r: 0, g: 0, b: 1, a: 1}
   - name: Chest
-    position: {x: 0, y: 0.7, z: 0.7}
+    position: {x: 0, y: -0.008, z: 1.4026136}
     dir: {x: 0, y: -1, z: 0}
     multiplier: 1
     interval: 1
@@ -37955,11 +37959,11 @@ MonoBehaviour:
     EditorDisplay: 0
     PivotColor: {r: 0, g: 0, b: 1, a: 1}
   - name: Water
-    position: {x: 0, y: 1, z: 0}
+    position: {x: 0, y: -0.008, z: 0.29235286}
     dir: {x: 0, y: -1, z: 0}
     multiplier: 0.05
     interval: 1
-    EditorModify: 0
+    EditorModify: 1
     EditorDisplay: 0
     PivotColor: {r: 0, g: 0, b: 1, a: 1}
   Pivot_Hip:
