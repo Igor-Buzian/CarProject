@@ -37124,7 +37124,7 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!114 &5459872135387021620
@@ -37142,11 +37142,11 @@ MonoBehaviour:
   ShowOnPlay: 0
   PivotPosDir: 0
   SelectedMode: -1
-  SelectedState: 1
+  SelectedState: 0
   SelectedStance: 0
-  ShowStateInInspector: 0
-  Editor_Tabs1: 0
-  Editor_Tabs2: 4
+  ShowStateInInspector: 1
+  Editor_Tabs1: 4
+  Editor_Tabs2: 1
   Mode_Tabs1: 0
   Ability_Tabs: 0
   Editor_EventTabs: 0
@@ -37459,7 +37459,7 @@ MonoBehaviour:
         Variable: {fileID: 0}
       rotation:
         UseConstant: 1
-        ConstantValue: 0
+        ConstantValue: 10
         Variable: {fileID: 0}
       lerpRotAnim:
         UseConstant: 1
@@ -37500,7 +37500,7 @@ MonoBehaviour:
         Variable: {fileID: 0}
       rotation:
         UseConstant: 1
-        ConstantValue: 0
+        ConstantValue: 10
         Variable: {fileID: 0}
       lerpRotAnim:
         UseConstant: 1
@@ -37541,7 +37541,7 @@ MonoBehaviour:
         Variable: {fileID: 0}
       rotation:
         UseConstant: 1
-        ConstantValue: 0
+        ConstantValue: 10
         Variable: {fileID: 0}
       lerpRotAnim:
         UseConstant: 1
@@ -37753,7 +37753,127 @@ MonoBehaviour:
       UseConstant: 1
       ConstantValue: New Action Map 0
       Variable: {fileID: 0}
-    inputs: []
+    inputs:
+    - name: Speed Up
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      type: 1
+      input: Speed Up
+      key: 122
+      debug: 0
+      GetPressed: 1
+      ResetOnDisable: 1
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 5459872135387021620}
+            m_TargetAssemblyTypeName: MalbersAnimations.Controller.MAnimal, MalbersAnimations
+            m_MethodName: SpeedUp
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPressReleased:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputEnable:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputDisable:
+        m_PersistentCalls:
+          m_Calls: []
+      DoubleTapTime: 0.3
+      LongPressTime: 0.5
+      SmoothDecrease: 0
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloat:
+        m_PersistentCalls:
+          m_Calls: []
+    - name: Speed Down
+      active:
+        UseConstant: 1
+        ConstantValue: 1
+        Variable: {fileID: 0}
+      ignoreOnPause:
+        UseConstant: 1
+        ConstantValue: 0
+        Variable: {fileID: 0}
+      type: 1
+      input: Speed Down
+      key: 120
+      debug: 0
+      GetPressed: 1
+      ResetOnDisable: 1
+      OnInputDown:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 5459872135387021620}
+            m_TargetAssemblyTypeName: MalbersAnimations.Controller.MAnimal, MalbersAnimations
+            m_MethodName: SpeedDown
+            m_Mode: 0
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      OnInputUp:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPress:
+        m_PersistentCalls:
+          m_Calls: []
+      OnLongPressReleased:
+        m_PersistentCalls:
+          m_Calls: []
+      OnDoubleTap:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputChanged:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputEnable:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputDisable:
+        m_PersistentCalls:
+          m_Calls: []
+      DoubleTapTime: 0.3
+      LongPressTime: 0.5
+      SmoothDecrease: 0
+      OnInputPressed:
+        m_PersistentCalls:
+          m_Calls: []
+      OnInputFloat:
+        m_PersistentCalls:
+          m_Calls: []
   ActiveMapIndex: 1
   DefaultMap:
     name:
