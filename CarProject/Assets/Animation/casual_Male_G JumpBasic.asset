@@ -124,10 +124,56 @@ MonoBehaviour:
     Variable: {fileID: 0}
   ResetJump: []
   profiles:
-  - name: Default
+  - name: Jump Walk
     LastState: {fileID: 0}
     VerticalSpeed: 0
     ForwardPush: 0
+    JumpTime: 0.3
+    Height:
+      UseConstant: 1
+      ConstantValue: 6
+      Variable: {fileID: 0}
+    GravityPower:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    StartGravityTime: 15
+    AirControl:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    WaitForAnimation: 0
+    JumpPressed:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  - name: Jump Run
+    LastState: {fileID: 0}
+    VerticalSpeed: 0.5
+    ForwardPush: 1
+    JumpTime: 0.3
+    Height:
+      UseConstant: 1
+      ConstantValue: 6
+      Variable: {fileID: 0}
+    GravityPower:
+      UseConstant: 1
+      ConstantValue: 1
+      Variable: {fileID: 0}
+    StartGravityTime: 15
+    AirControl:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+    WaitForAnimation: 0
+    JumpPressed:
+      UseConstant: 1
+      ConstantValue: 0
+      Variable: {fileID: 0}
+  - name: Jump Sprint
+    LastState: {fileID: 0}
+    VerticalSpeed: 2.5
+    ForwardPush: 3
     JumpTime: 0.3
     Height:
       UseConstant: 1
