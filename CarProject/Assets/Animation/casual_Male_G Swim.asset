@@ -32,7 +32,7 @@ MonoBehaviour:
   ResetLastState: 0
   General:
     modify: -1
-    RootMotion: 1
+    RootMotion: 0
     Sprint: 1
     Gravity: 0
     Grounded: 0
