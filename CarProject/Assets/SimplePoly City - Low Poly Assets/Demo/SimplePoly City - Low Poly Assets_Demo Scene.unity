@@ -51951,6 +51951,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: Ability_Tabs
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: Editor_Tabs1
       value: 2
       objectReference: {fileID: 0}
@@ -52026,6 +52030,10 @@ PrefabInstance:
       propertyPath: modes.Array.data[0].ID
       value: 
       objectReference: {fileID: 11400000, guid: 1286867ad3c4cdd4baacac3373aff92c, type: 2}
+    - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: modes.Array.data[0].Input
+      value: Attack
+      objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: pivots.Array.data[0].name
       value: Chest
@@ -52192,7 +52200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].CoolDown.UseConstant
@@ -52223,6 +52231,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7e364e53b77644c47aa3abdaa2e2c08c, type: 2}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: modes.Array.data[0].DefaultIndex.ConstantValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].m_AbilityIndex.UseConstant
       value: 1
       objectReference: {fileID: 0}
@@ -52252,7 +52264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[0].Name
-      value: H_Kick Right
+      value: H_Punching Right
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[1].Name
@@ -52260,11 +52272,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[2].Name
-      value: H_Punching Right
+      value: H_Punching Right Opp
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[3].Name
-      value: H_Punching Right Opp
+      value: H_Punching Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: modes.Array.data[0].m_AbilityIndex.ConstantValue
+      value: -99
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: speedSets.Array.data[1].PitchLerpOff.UseConstant
@@ -52467,12 +52483,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: modes.Array.data[0].Abilities.Array.data[0].Input.ConstantValue
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[1].Index.ConstantValue
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[2].Index.ConstantValue
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: modes.Array.data[0].Abilities.Array.data[2].Input.ConstantValue
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402256, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: modes.Array.data[0].Abilities.Array.data[3].Index.ConstantValue
@@ -52839,8 +52863,12 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: showInputEvents
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[2].key
@@ -52853,6 +52881,10 @@ PrefabInstance:
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[4].key
       value: 107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].key
+      value: 323
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[2].name
@@ -52879,6 +52911,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].name
+      value: Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[2].input
       value: Jump
       objectReference: {fileID: 0}
@@ -52888,6 +52928,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[4].input
+      value: InputValue
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].input
       value: InputValue
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
@@ -52919,6 +52963,14 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].DoubleTapTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].LongPressTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[2].ResetOnDisable
       value: 1
       objectReference: {fileID: 0}
@@ -52928,6 +52980,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[4].ResetOnDisable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].ResetOnDisable
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
@@ -52943,6 +52999,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].active.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[2].active.ConstantValue
       value: 1
       objectReference: {fileID: 0}
@@ -52955,6 +53015,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].active.ConstantValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[2].ignoreOnPause.UseConstant
       value: 1
       objectReference: {fileID: 0}
@@ -52964,6 +53028,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
       propertyPath: actionMaps.Array.data[0].inputs.Array.data[4].ignoreOnPause.UseConstant
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
+      propertyPath: actionMaps.Array.data[0].inputs.Array.data[5].ignoreOnPause.UseConstant
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8838457203948402257, guid: 9ea9117b3a265b94ea696bf4dfa4ae75, type: 3}
