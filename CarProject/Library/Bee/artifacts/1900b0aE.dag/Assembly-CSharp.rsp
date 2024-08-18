@@ -336,6 +336,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/MalbersAnimations.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/MalbersAnimations.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
@@ -343,6 +344,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/DenysAlmaral/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs"
+"Assets/GoToNextScene.cs"
 "Assets/LowPolyWater_Pack/Scripts/LowPolyWater.cs"
 -langversion:9.0
 
